@@ -5,9 +5,15 @@ This project implements a sentiment analysis pipeline using **DistilBERT** and H
 https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset
 
 # Requirements
-Python 3.8+
-Before running the project, ensure you have the following Python packages installed:
-pip install flask transformers torch scikit-learn datasets pandas
+Before running the project, ensure you have the following packages installed:
+Flask==2.2.3
+torch==2.0.1
+transformers==4.31.0
+torchmetrics==0.11.0
+scikit-learn==1.2.2
+numpy==1.24.2
+pandas==1.5.3
+gunicorn==20.1.0
 
 
 
